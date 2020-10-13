@@ -1,8 +1,8 @@
 # Trybe - exercises
 
-###This repository contains all exercises done when studying sotware full stack development at Trybe School.
+This repository contains all exercises done when studying sotware full stack development at Trybe School.
 
-##Section 3: Introduction to HTML & CSS 
+Section 3: Introduction to HTML & CSS 
 - [x] 3.1 HTML & CSS: Webpage structure 
 - [x] 3.2 HTML & CSS: Using CSS 
 - [x] 3.3 HTML & CSS: Selectors and positioning 
