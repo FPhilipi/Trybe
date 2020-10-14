@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CV Forms</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/pikaday.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="section">
+        <h1 class="title has-text-centered">Dados Cadastrais</h1>
+        <p class="subtitle has-text-centered">
+          <em>Digite suas informações cadastrais</em>
+        </p>
+      </header>
+
+    <form class="form" action="" method="GET">
+    <!--Comentario-->
+        <div class="field">
+            <div class="field"> 
+                <label class="label" for="name">Nome:</label>
+                <div class="control"> 
+                    <input class="input" name="name" type="text" id="name" data-validate-field="name">
+                </div>
+            </div>
+            
+            <div class="field">
+                <label class="label" for="email">E-mail:</label>
+                <div class="control"> 
+                <input class="input" type="email" name="email" id="email" data-validate-field="email">
+                </div>            
+            </div>
+
+            <div class="field">
+                <label class="label" for="input-cpf">CPF:</label>
+                <div class="control">
+                <input class="input" type="text" maxlength="11" required="required" id="input-cpf">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="input-adress">Endereço:</label>
+                <div class="control">
+                <input class="input" type="text" maxlength="200" required="required" id="input-adress">
+                </div>
+            </div>
+            
+            <div class="field"> 
+                <label class="label" for="input-city">Cidade:</label>
+                <div class="control">              
+                <input class="input" type="text" maxlength="28" required="required" id="input-city" placeholder="Cidade">
+                </div>
+            </div>
+            
+            <div class="field">                 
+                <label class="label" for="input-state">Estado:</label>
+                <div class="control">
+                    <div class="select is-rounded">                
+                        <select class="select" id="select-state">                
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Moradia:</label>
+                <div class="control">                
+                 
+                    <label class="radio" for="casa">Casa
+                    <input type="radio" name="residencia" required="required" id="casa" value="casa">
+                    </label>
+                    <label class="radio" for="apartamento">Apartamento
+                    <input type="radio" name="residencia" required="required" id="apartamento" value="apartamento">
+                    </label>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="field">
+        <legend>Dados do seu último emprego</legend>
+            <label for="input-CV-resume">Resumo CV</label><br><br>
+            <textarea name="CV" type="text" maxlength="1000" cols="50" rows="10" required="required" id="input-CV-resume"></textarea>
+            <br><br><label for="input-cargo">Cargo</label>
+            <input type="text" maxlength="40" required="required" id="input-cargo">
+            <br><br>
+            <label for="input-descricao-cargo">Descrição cargo</label>
+            <input type="text" maxlength="500" required="required" id="input-descricao-cargo">
+            <br><br>
+
+            <div class="field">
+                <label class="label" for="datepicker">Datas</label>
+                    <div class="control">
+                        <input type="text" id="datepicker" class="input" required="required">
+                        
+                    </div>
+            </div>
+
+        <div class="field">
+            <div class="control">
+                <button class="button is-success" type="submit">Enviar!</button>
+            </div>
+        </div>        
+      
+    </form>
+    <script src="js/just-validate.js"></script>
+    <script src="js/pikaday.js"></script>
+    <script src="js/script.js"></script>
+      
+</body>
+</html>
