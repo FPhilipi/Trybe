@@ -13,7 +13,7 @@ Section 3: Introduction to HTML & CSS
 Section 4: Introduction to JavaScript 
 - [X] 4.1 First steps JavaScript 
 - [X] 4.2 JavaScript: Arrays and For loop 
-- [ ] 4.3 JavaScript: Programming logic and algorithms 
+- [X] 4.3 JavaScript: Programming logic and algorithms 
 - [ ] 4.4 JavaScript: Objects and functions
 
 Section 5: Introduction to JavaScript 
