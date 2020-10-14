@@ -8,7 +8,7 @@ Section 3: Introduction to HTML & CSS
 - [x] 3.1 HTML & CSS: Webpage structure 
 - [x] 3.2 HTML & CSS: Using CSS 
 - [x] 3.3 HTML & CSS: Selectors and positioning 
-- [ ] 3.4 Semantic HTML
+- [x] 3.4 Semantic HTML
 
 Section 4: Introduction to JavaScript 
 - [ ] 4.1 First steps JavaScript 
